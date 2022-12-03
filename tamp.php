@@ -5,14 +5,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="theme/image/x-icon" href="favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="theme/css/bootstrap.min.css">
+    <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="theme/css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="theme/css/style.css">
 
     <title>Prixima BS5 Template</title>
 </head>
@@ -113,7 +113,7 @@
 
                         <div class="col-12">
                             <div class="info-box">
-                                <img src="img/icon6.png" alt="">
+                                <img src="theme/img/icon6.png" alt="">
                                 <div class="ms-4">
                                     <h5>Digital Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col-12 mt-4">
                             <div class="info-box">
-                                <img src="img/icon4.png" alt="">
+                                <img src="theme/img/icon4.png" alt="">
                                 <div class="ms-4">
                                     <h5>E-mail Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -133,7 +133,7 @@
                         </div>
                         <div class="col-12 mt-4">
                             <div class="info-box">
-                                <img src="img/icon5.png" alt="">
+                                <img src="theme/img/icon5.png" alt="">
                                 <div class="ms-4">
                                     <h5>Buisness Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -143,8 +143,8 @@
                         </div>
                     </div>
                 </div>
-             <div class="col-lg-5">
-                    <img src="img/about.png" alt="">
+                <div class="col-lg-5">
+                    <img src="theme/img/about.png" alt="">
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="/img/icon1.png" alt="">
+                        <img src="theme/img/icon1.png" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon2.png" alt="">
+                        <img src="theme/img/icon2.png" alt="">
                         <h5>Logo Designing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon3.png" alt="">
+                        <img src="theme/img/icon3.png" alt="">
                         <h5>Buisness consulting</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon4.png" alt="">
+                        <img src="theme/img/icon4.png" alt="">
                         <h5>Videography</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -221,7 +221,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon5.png" alt="">
+                        <img src="theme/img/icon5.png" alt="">
                         <h5>Brand Identity</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="img/icon6.png" alt="">
+                        <img src="theme/img/icon6.png" alt="">
                         <h5>Ethical Hacking</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -255,7 +255,7 @@
         <div id="projects-slider" class="owl-theme owl-carousel">
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/project1.jpg" alt="">
+                <img src="theme/img/project1.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -263,7 +263,7 @@
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/project2.jpg" alt="">
+                <img src="theme/img/project2.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -271,7 +271,7 @@
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/project3.jpg" alt="">
+                <img src="theme/img/project3.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -279,7 +279,7 @@
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/project4.jpg" alt="">
+                <img src="theme/img/project4.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -287,7 +287,7 @@
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="img/project5.jpg" alt="">
+                <img src="theme/img/project5.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -312,7 +312,7 @@
                 <div class="col-lg-4 col-md-8">
                     <div class="team-member">
                         <div class="image">
-                            <img src="img/team_1.jpg" alt="">
+                            <img src="theme/img/team_1.jpg" alt="">
                             <div class="social-icons">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
                                 <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -329,7 +329,7 @@
                 <div class="col-lg-4 col-md-8">
                     <div class="team-member">
                         <div class="image">
-                            <img src="img/team_2.jpg" alt="">
+                            <img src="theme/img/team_2.jpg" alt="">
                             <div class="social-icons">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
                                 <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -346,7 +346,7 @@
                 <div class="col-lg-4 col-md-8">
                     <div class="team-member">
                         <div class="image">
-                            <img src="img/team_3.jpg" alt="">
+                            <img src="theme/img/team_3.jpg" alt="">
                             <div class="social-icons">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
                                 <a href="#"><i class='bx bxl-twitter'></i></a>
@@ -369,7 +369,7 @@
         <div class="owl-theme owl-carousel reviews-slider container">
             <div class="review">
                 <div class="person">
-                    <img src="img/team_1.jpg" alt="">
+                    <img src="theme/img/team_1.jpg" alt="">
                     <h5>Ralph Edwards</h5>
                     <small>Market Development Manager</small>
                 </div>
@@ -387,7 +387,7 @@
             </div>
             <div class="review">
                 <div class="person">
-                    <img src="img/team_2.jpg" alt="">
+                    <img src="theme/img/team_2.jpg" alt="">
                     <h5>Ralph Edwards</h5>
                     <small>Market Development Manager</small>
                 </div>
@@ -405,7 +405,7 @@
             </div>
             <div class="review">
                 <div class="person">
-                    <img src="img/team_3.jpg" alt="">
+                    <img src="theme/img/team_3.jpg" alt="">
                     <h5>Ralph Edwards</h5>
                     <small>Market Development Manager</small>
                 </div>
@@ -439,7 +439,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
+                        <img src="theme/img/project5.jpg" alt="">
                         <a href="#" class="tag">Web Design</a>
                         <div class="content">
                             <small>01 Dec, 2022</small>
@@ -451,7 +451,7 @@
                 </div>
                 <div class="col-md-4">
                     <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
+                        <img src="theme/img/project4.jpg" alt="">
                         <a href="#" class="tag">Programming</a>
                         <div class="content">
                             <small>01 Dec, 2022</small>
@@ -463,7 +463,7 @@
                 </div>
                 <div class="col-md-4">
                     <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
+                        <img src="theme/img/project2.jpg" alt="">
                         <a href="#" class="tag">Marketing</a>
                         <div class="content">
                             <small>01 Dec, 2022</small>
@@ -502,7 +502,7 @@
         </div>
         <div class="footer-bottom text-center">
             <p class="mb-0">Copyright vicpra 2022. All rights Reserved</p> Distributed By <a
-                hrefs="https://themewagon.com">ThemeWagon</a>
+                hrefs="https:/themewagon.com">ThemeWagon</a>
         </div>
     </footer>
 
@@ -568,10 +568,10 @@
 
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/theme/jquery.min.js"></script>
+    <script src="js/theme/bootstrap.bundle.min.js"></script>
+    <script src="js/theme/owl.carousel.min.js"></script>
+    <script src="js/theme/app.js"></script>
 </body>
 
 </html>
