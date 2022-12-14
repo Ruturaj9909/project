@@ -1,26 +1,21 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="theme/image/x-icon" href="favicon.ico">
+<?php
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="theme/css/bootstrap.min.css">
-    <link rel="stylesheet" href="theme/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="theme/css/owl.theme.default.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="theme/css/style.css">
+require_once("head.php");
 
-    <title>Prixima BS5 Template</title>
-</head>
+?>
+
+
+
+
+
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
 
-    <!-- TOP NAV -->
+
+
+   <!-- TOP NAV -->
     <div class="top-nav" id="home">
         <div class="container">
             <div class="row justify-content-between">
@@ -39,43 +34,11 @@
     </div>
 
     <!-- BOTTOM NAV -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Prixima<span class="dot">.</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                </ul>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    class="btn btn-brand ms-lg-3">Contact</a>
-            </div>
-        </div>
-    </nav>
+    <?=
+require_once("nav.php");
 
+    ?>
+    
     <!-- SLIDER -->
     <div class="owl-carousel owl-theme hero-slider">
         <div class="slide slide1">
@@ -565,13 +528,14 @@
 
 
 
+<?=
+
+require_once("script.php");
+
+?>
 
 
-
-    <script src="js/theme/jquery.min.js"></script>
-    <script src="js/theme/bootstrap.bundle.min.js"></script>
-    <script src="js/theme/owl.carousel.min.js"></script>
-    <script src="js/theme/app.js"></script>
+    
 </body>
 
 </html>
