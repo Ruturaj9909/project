@@ -1,7 +1,7 @@
 
 <?php
 
-require_once("head.php");
+require_once("inc/head.php");
 
 ?>
 
@@ -35,7 +35,7 @@ require_once("head.php");
 
     <!-- BOTTOM NAV -->
     <?=
-require_once("nav.php");
+require_once("inc/nav.php");
 
     ?>
     
@@ -530,7 +530,7 @@ require_once("nav.php");
 
 <?=
 
-require_once("script.php");
+require_once("inc/script.php");
 
 ?>
 
