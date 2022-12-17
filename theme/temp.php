@@ -1,21 +1,26 @@
+<!doctype html>
+<html lang="en">
 
-<?php
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-require_once("inc/head.php");
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
 
-?>
-
-
-
-
-
+    <title>home</title>
+</head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
 
-
-
-   <!-- TOP NAV -->
+    <!-- TOP NAV -->
     <div class="top-nav" id="home">
         <div class="container">
             <div class="row justify-content-between">
@@ -34,11 +39,43 @@ require_once("inc/head.php");
     </div>
 
     <!-- BOTTOM NAV -->
-    <?=
-require_once("inc/nav.php");
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Prixima<span class="dot">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn btn-brand ms-lg-3">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-    ?>
-    
     <!-- SLIDER -->
     <div class="owl-carousel owl-theme hero-slider">
         <div class="slide slide1">
@@ -76,7 +113,7 @@ require_once("inc/nav.php");
 
                         <div class="col-12">
                             <div class="info-box">
-                                <img src="theme/img/icon6.png" alt="">
+                                <img src="img/icon6.png" alt="">
                                 <div class="ms-4">
                                     <h5>Digital Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -86,7 +123,7 @@ require_once("inc/nav.php");
                         </div>
                         <div class="col-12 mt-4">
                             <div class="info-box">
-                                <img src="theme/img/icon4.png" alt="">
+                                <img src="img/icon4.png" alt="">
                                 <div class="ms-4">
                                     <h5>E-mail Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -96,7 +133,7 @@ require_once("inc/nav.php");
                         </div>
                         <div class="col-12 mt-4">
                             <div class="info-box">
-                                <img src="theme/img/icon5.png" alt="">
+                                <img src="img/icon5.png" alt="">
                                 <div class="ms-4">
                                     <h5>Buisness Marketing</h5>
                                     <p>It is a long established fact that a reader will be distracted by the readable
@@ -106,8 +143,8 @@ require_once("inc/nav.php");
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <img src="theme/img/about.png" alt="">
+             <div class="col-lg-5">
+                    <img src="img/about.png" alt="">
                 </div>
             </div>
         </div>
@@ -152,7 +189,7 @@ require_once("inc/nav.php");
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon1.png" alt="">
+                        <img src="/img/icon1.png" alt="">
                         <h5>Digital Marketing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -160,7 +197,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon2.png" alt="">
+                        <img src="img/icon2.png" alt="">
                         <h5>Logo Designing</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -168,7 +205,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon3.png" alt="">
+                        <img src="img/icon3.png" alt="">
                         <h5>Buisness consulting</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -176,7 +213,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon4.png" alt="">
+                        <img src="img/icon4.png" alt="">
                         <h5>Videography</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -184,7 +221,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon5.png" alt="">
+                        <img src="img/icon5.png" alt="">
                         <h5>Brand Identity</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -192,7 +229,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service">
-                        <img src="theme/img/icon6.png" alt="">
+                        <img src="img/icon6.png" alt="">
                         <h5>Ethical Hacking</h5>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                             classical Latin literature from</p>
@@ -226,7 +263,7 @@ require_once("inc/nav.php");
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="theme/img/project2.jpg" alt="">
+                <img src="project2.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -234,7 +271,7 @@ require_once("inc/nav.php");
             </div>
             <div class="project">
                 <div class="overlay"></div>
-                <img src="theme/img/project3.jpg" alt="">
+                <img src="themeimg/project3.jpg" alt="">
                 <div class="content">
                     <h2>Consulting Marketing</h2>
                     <h6>Website Design</h6>
@@ -414,7 +451,7 @@ require_once("inc/nav.php");
                 </div>
                 <div class="col-md-4">
                     <article class="blog-post">
-                        <img src="theme/img/project4.jpg" alt="">
+                        <img src="img/project4.jpg" alt="">
                         <a href="#" class="tag">Programming</a>
                         <div class="content">
                             <small>01 Dec, 2022</small>
@@ -465,7 +502,7 @@ require_once("inc/nav.php");
         </div>
         <div class="footer-bottom text-center">
             <p class="mb-0">Copyright vicpra 2022. All rights Reserved</p> Distributed By <a
-                hrefs="https:/themewagon.com">ThemeWagon</a>
+                hrefs="https://themewagon.com">ThemeWagon</a>
         </div>
     </footer>
 
@@ -528,14 +565,13 @@ require_once("inc/nav.php");
 
 
 
-<?=
-
-require_once("inc/script.php");
-
-?>
 
 
-    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
